@@ -1,0 +1,719 @@
+<?php 
+include 'contact.php';
+?>
+<!doctype html>
+<html>
+	<head>
+		<!-- Meta -->
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1"> 
+		<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+		<!-- SITE TITLE -->
+		<title>Safwan Personal Portfolio</title>
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:300,400,600,800">
+		<link href="fonts/font-awesome.min.css" rel="stylesheet"/>
+		<link rel="icon" href="images/favicon.png"/>
+		<link href="fonts/themify-icons.css" rel="stylesheet"/>
+		<link href="fonts/etline.css" rel="stylesheet"/>
+		<link href="css/plugins.css" rel="stylesheet"/>
+		<link href="css/lightbox.min.css" rel="stylesheet"/>
+		<link href="css/responsive.css" rel="stylesheet"/>
+		<link href="css/style.css" rel="stylesheet"/>
+		<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+		<!--[if lt IE 9]>
+		  <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+		  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+		<![endif]-->
+	</head>
+<body data-spy="scroll" data-offset="80">
+		<!-- START PRELOADER -->
+			<div class="preloader dark_preloader">
+				<div class="spinner">
+					<div class="double-bounce1"></div>
+					<div class="double-bounce2"></div>
+				</div>
+			</div>
+		<!-- END PRELOADER -->
+		
+		<!-- START NAVBAR -->
+			<div class="navbar navbar-default navbar-fixed-top menu-top dark_bg_menu">
+				<div class="container">
+					<div class="logo">
+						<a href="#" class="navbar-brand"><p>Safwan Al Najjar</p></a>
+						<div class="mobile-nav"></div>
+					</div>
+					
+					<div id="navbar" class="main_menu">
+						<ul class="nav navbar-nav navbar-right">
+							<li><a href="#home">Home</a></li>
+							<li><a href="#about">About</a></li>
+							<li><a href="#service">Service</a></li>
+							<li><a href="#portfolio">Portfolio</a></li>
+							<li><a href="#resume">Resume</a></li>	
+							<!-- <li><a href="#blog">Blog</a></li> -->													
+							<li><a href="#contact">Contact</a></li>
+							<li><a href="light.html">Light</a></li>
+						</ul>
+					</div> 
+				</div><!--- END CONTAINER -->
+			</div> 
+		<!-- END NAVBAR -->			
+		
+		<!-- START BANNER-SHOW -->
+			<section id="home" class="main_banner banner_bg">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-6 col-sm-12 col-xs-12">
+							<div class="banner_content">								
+								<strong>I'm</strong>
+								<h1 class="cd-headline clip">
+									<!-- <span class="fw_600">I'm</span> -->
+									<span class="cd-words-wrapper">
+										<b class="is-visible fw_300">Safwan AL Najjar</b>
+										<b class="fw_300">Web Designer</b>
+										<b class="fw_300">Web Developer</b>
+										<b class="fw_300">Graphic-Designer</b>
+									</span>
+								</h1>
+								<p>"Programming isn't about what you know; it's about what you can figure out.”</p>
+								<div class="banner-btn">
+									<a href="mailto:safwan.nj@gmail.com" class="banner_btn">Hire Me</a>
+								</div>
+							</div>
+						</div>					
+					</div>
+				</div>
+			</section>
+		<!-- END BANNER-SHOW -->
+		
+		<!-- START ABOUT -->
+			<section id="about" class="dark_bg section_padding">
+				<div class="container">
+					<div class="single_about">
+						<div class="row">
+							<div class="col-md-6 col-sm-6 col-xs-12">
+								<div class="about_image wow fadeInLeft">
+									<img class="img-rounded" src="images/2.png" alt="about-image" />
+								</div>
+							</div>
+							
+							<div class="col-md-6 col-sm-6 col-xs-12">
+								<div class="about_content_area wow fadeInRight">
+									<h4>Who am I ? <br><span>Safwan Al Najjar</span></h4>					
+									<!-- <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer tellus est,
+									finibus ut congue sed, faucibus ut dui. Sed congue nisl dolor, id dapibus leo
+									elementum posuere. Ut aliquam metus quis laoreet elementum. In hac habitasse platea dictumst.
+									In hac habitasse platea dictumst.
+									</p> -->
+									<div class="about_details">
+										<div class="row">
+											<div class="col-md-12">
+												<div class="ct_about">
+												   <span> Name </span> : Safwan Al Najjar											   
+												</div>
+											</div>
+											
+											<div class="col-md-12">
+												<div class="ct_about">
+												   <span> Age </span>
+												   : 39
+												</div>
+											</div>
+											
+											<div class="col-md-12">
+												<div class="ct_about">
+												   <span> Address </span>
+												   : Werkstättenstraße 9/1 , 5020 Salzburg
+												</div>
+											</div>
+											
+											<div class="col-md-12">
+												<div class="ct_about">
+												   <span> Phone Number </span>
+												   : +43 681-106-654-85
+												</div>
+											</div>
+											
+											<div class="col-md-12">
+												<div class="ct_about">
+												   <span> Email </span>
+												   : safwan.nj@gmail.com
+												</div>
+											</div>
+										</div>
+									</div>
+									
+									<a href="dl/safwan-lebenslauf.pdf" class="btn btn-default main_btn">Download Cv</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+		<!-- END ABOUT -->
+		
+		<!-- START SERVICE -->
+			<section id="service" class="dark_bg section_padding pb_70">
+				<div class="container">
+					<div class="col-md-12 col-sm-12-col-xs-12">
+						<div class="section_heading text-center">
+							<h2>My <span>Services</span></h2>
+							<!-- <p>Lorem ipsum dolor sit amet, consect adipisic elit, sed do eiusmod tempor incididunt ut<br/> labore et d magna aliqua enim sed do sit.</p> -->							
+						</div>	
+					</div>
+					
+					<div class="row text-center">
+						<div class="col-md-4 col-sm-6 col-xs-12 ">
+							<div class="single-service wow fadeInLeft img-rounded" >
+								<i class="fa fa-html5 fa-lg"></i>
+								<h4>Web Design</h4>
+								<!-- <P>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sit amet suscipit orci Pellentesque.</P> -->
+							</div>
+						</div> <!-- End Col -->
+						<div class="col-md-4 col-sm-6 col-xs-12 ">
+							<div class="single-service wow fadeInDown img-rounded">
+								<i class="fa fa-leaf fa-lg"></i>
+								<h4>Animation Making</h4>
+								<!-- <P>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sit amet suscipit orci Pellentesque.</P> -->
+							</div>
+						</div> <!-- End Col -->						
+						<div class="col-md-4 col-sm-6 col-xs-12 ">
+							<div class="single-service wow fadeInRight img-rounded">
+								<i class="fa fa-video-camera fa-lg"></i>
+								<h4>Video Editing</h4>
+								<!-- <P>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sit amet suscipit orci Pellentesque.</P> -->
+							</div>
+						</div> <!-- End Col -->
+						<div class="col-md-4 col-sm-6 col-xs-12 ">
+							<div class="single-service wow fadeInLeft img-rounded">
+								<i class="fa fa-briefcase fa-lg"></i>
+								<h4>User Experience</h4>
+								<!-- <P>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sit amet suscipit orci Pellentesque.</P> -->
+							</div>
+						</div> <!-- End Col -->
+						<div class="col-md-4 col-sm-6 col-xs-12 ">
+							<div class="single-service wow fadeInUp img-rounded">
+								<i class="fa fa-code fa-lg"></i>
+								<h4>Clean Code</h4>
+								<!-- <P>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sit amet suscipit orci Pellentesque.</P> -->
+							</div>
+						</div> <!-- End Col -->
+						<div class="col-md-4 col-sm-6 col-xs-12 ">
+							<div class="single-service wow fadeInRight img-rounded">
+								<i class="fa fa-support fa-lg"></i>
+								<h4>Fast Support</h4>
+								<!-- <P>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sit amet suscipit orci Pellentesque.</P> -->
+							</div>
+						</div> <!-- End Col -->
+					</div>
+				</div>
+			</section>
+		<!-- END SERVICE -->
+		
+		<!-- START CTA -->
+			<section class="cta_section section_padding">
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-12 text-center">
+							<div class="cta_content">
+								<h3>I Am Available For Freelancing !</h3>
+								<a href="mailto:safwan.nj@gmail.com" class="btn btn-default main_btn"><span>Hire Me</span></a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+        <!-- END CTA -->
+		
+		<!-- START PORTFOLIO -->
+			<section id="portfolio" class="dark_bg section_padding">
+				<div class="container">	
+					<div class="col-md-12 col-sm-12-col-xs-12">
+						<div class="section_heading text-center">
+							<h2>My <span>Portfolio</span></h2>						
+							<!-- <p>Lorem ipsum dolor sit amet, consect adipisic elit, sed do eiusmod tempor incididunt ut<br/> labore et d magna aliqua enim sed do sit.</p> -->
+						</div>	
+					</div>
+					
+					<div class="row">
+						<div class="work_filter text-center">
+							<ul>
+								<li class="active" data-filter="*">All</li>
+								<li data-filter=".design">Websites</li>
+								<li data-filter=".web-app">Web-Apps</li>
+								<li data-filter=".android">Android-Apps</li>
+							</ul>
+						</div>
+						
+						<div class="work_content_area">
+							<div class="col-md-4 col-sm-6 col-xs-12 android">
+								<div class="item-img">
+									<img class="img-rounded" src="images/portfolio/1.png" alt="" />
+									<div class="item-img-overlay">
+										<div class="overlay-info full-width">																						
+											<a href="images/portfolio/1.png" data-lightbox="images">
+												<span class="icon"><i class="fa fa-plus"></i></span>
+											</a>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-4 col-sm-6 col-xs-12 element-item design android">
+								<div class="item-img">
+									<img class="img-rounded" src="images/portfolio/2.png" alt="" />
+									<div class="item-img-overlay">
+										<div class="overlay-info full-width">																						
+											<a href="images/portfolio/2.png" data-lightbox="images">
+												<span class="icon"><i class="fa fa-plus"></i></span>
+											</a>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-4 col-sm-6 col-xs-12 element-item android web-app">
+								<div class="item-img">
+									<img class="img-rounded" src="images/portfolio/3.png" alt="" />
+									<div class="item-img-overlay">
+										<div class="overlay-info full-width">																					
+											<a href="images/portfolio/3.png" data-lightbox="images">
+												<span class="icon"><i class="fa fa-plus"></i></span>
+											</a>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-4 col-sm-6 col-xs-12 element-item design android">
+								<div class="item-img">
+									<img class="img-rounded" src="images/portfolio/4.png" alt="" />
+									<div class="item-img-overlay">
+										<div class="overlay-info full-width">																						
+											<a href="images/portfolio/4.png" data-lightbox="images">
+												<span class="icon"><i class="fa fa-plus"></i></span>
+											</a>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-4 col-sm-6 col-xs-12 element-item design android">
+								<div class="item-img">
+									<img class="img-rounded" src="images/portfolio/5.png" alt="" />
+									<div class="item-img-overlay">
+										<div class="overlay-info full-width">																						
+											<a href="images/portfolio/5.png" data-lightbox="images">
+												<span class="icon"><i class="fa fa-plus"></i></span>
+											</a>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-4 col-sm-6 col-xs-12 element-item  web-app">
+								<div class="item-img">
+									<img class="img-rounded" src="images/portfolio/9.png" alt="" />
+									<div class="item-img-overlay">
+										<div class="overlay-info full-width">																						
+											<a href="images/portfolio/9.png" data-lightbox="images">
+												<span class="icon"><i class="fa fa-plus"></i></span>
+											</a>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-4 col-sm-6 col-xs-12 element-item  web-app">
+								<div class="item-img">
+									<img class="img-rounded" src="images/portfolio/8.png" alt="" />
+									<div class="item-img-overlay">
+										<div class="overlay-info full-width">																						
+											<a href="images/portfolio/8.png" data-lightbox="images">
+												<span class="icon"><i class="fa fa-plus"></i></span>
+											</a>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-4 col-sm-6 col-xs-12 element-item  web-app">
+								<div class="item-img">
+									<img class="img-rounded" src="images/portfolio/7.png" alt="" />
+									<div class="item-img-overlay">
+										<div class="overlay-info full-width">																						
+											<a href="images/portfolio/7.png" data-lightbox="images">
+												<span class="icon"><i class="fa fa-plus"></i></span>
+											</a>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-4 col-sm-6 col-xs-12 element-item  web-app">
+								<div class="item-img">
+									<img class="img-rounded" src="images/portfolio/6.png" alt="" />
+									<div class="item-img-overlay">
+										<div class="overlay-info full-width">																						
+											<a href="images/portfolio/6.png" data-lightbox="images">
+												<span class="icon"><i class="fa fa-plus"></i></span>
+											</a>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-4 col-sm-6 col-xs-12 element-item  web-app">
+								<div class="item-img">
+									<img class="img-rounded" src="images/portfolio/10.png" alt="" />
+									<div class="item-img-overlay">
+										<div class="overlay-info full-width">																						
+											<a href="images/portfolio/10.png" data-lightbox="images">
+												<span class="icon"><i class="fa fa-plus"></i></span>
+											</a>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-4 col-sm-6 col-xs-12 element-item  web-app">
+								<div class="item-img">
+									<img class="img-rounded" src="images/portfolio/11.png" alt="" />
+									<div class="item-img-overlay">
+										<div class="overlay-info full-width">																						
+											<a href="images/portfolio/11.png" data-lightbox="images">
+												<span class="icon"><i class="fa fa-plus"></i></span>
+											</a>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-4 col-sm-6 col-xs-12 element-item  web-app">
+								<div class="item-img">
+									<img class="img-rounded" src="images/portfolio/12.png" alt="" />
+									<div class="item-img-overlay">
+										<div class="overlay-info full-width">																						
+											<a href="images/portfolio/12.png" data-lightbox="images">
+												<span class="icon"><i class="fa fa-plus"></i></span>
+											</a>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-4 col-sm-6 col-xs-12 element-item  web-app">
+								<div class="item-img">
+									<img class="img-rounded" src="images/portfolio/13.png" alt="" />
+									<div class="item-img-overlay">
+										<div class="overlay-info full-width">																						
+											<a href="images/portfolio/13.png" data-lightbox="images">
+												<span class="icon"><i class="fa fa-plus"></i></span>
+											</a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>						
+					</div>
+				</div>			
+			</section>
+		<!-- END PORTFOLIO -->
+			
+		<!-- START COUNTER -->
+		    <section id="counter_area" class="section_padding rs_pb_70">
+				<div class="container">
+					<div class="row text-center">
+					
+						<div class="col-md-3 col-sm-6 col-xs-12">
+							<div class="single_counter">							    
+								<span class="counter">27</span>
+							    <h5>Successul Projects</h5>
+							</div>
+						</div> 
+						
+						<div class="col-md-3 col-sm-6 col-xs-12">
+							<div class="single_counter">								
+								<span class="counter">24</span>
+								<h5>Happy Clients</h5>
+							</div>
+						</div>
+						
+						<div class="col-md-3 col-sm-6 col-xs-12">
+							<div class="single_counter">							    
+								<span class="counter">3</span>
+								<h5>Awards Received</h5>
+							</div>
+						</div> 
+						
+						<div class="col-md-3 col-sm-6 col-xs-12">
+							<div class="single_counter border_left">						    
+								<span class="counter">24</span>
+								<h5>Customer</h5>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+		<!-- END COUNTER -->
+		
+		<!-- START RESUM -->	
+			<section id="resume" class="dark_bg section_padding pb_70">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-6 col-sm-12 col-xs-12">
+							<div class="education-container wow fadeInLeft">
+								<ul class="edu-list img-rounded">
+									<li class="img-rounded">										
+										<h5>Ask Questions to Make Data-Driven Decisions</h5>
+										<strong>2022</strong>
+										<p>Part of Google Data Analytics Professional Certificate</p>
+										<p>Coursera / (Google)</p>
+										<p> Abschluss mit <a href="https://coursera.org/share/ba21f44b465aec0be85262cad56e0fd2" target="_blank">Zertifikat</a></p>
+									</li>
+									<li class="img-rounded">										
+										<h5>React JS</h5>
+										<strong>2022</strong>
+										<p>Front-End Web Development with React</p>
+										<p>The Hong Kong University of Science and Technology</p>
+										<p> Abschluss mit <a href="https://coursera.org/share/adb4e46ecf18e579084db48fd87e16dc" target="_blank">Zertifikat</a></p>
+									</li>
+									<li class="img-rounded">										
+										<h5>Google IT Support</h5>
+										<strong>2021</strong>
+										<p>* IT Security: Defense against the digital dark arts</p>
+										<p>* The Bits and Bytes of Computer Networking</p>
+										<p>* System Administration and IT Infrastructure Services</p>
+										<p>* Technical Support Fundamentals</p>
+										<p>* Operating Systems and You: Becoming a Power User</p>
+										<p> Abschluss mit <a href="https://coursera.org/share/aacd60c668f2dd7d4d68a59b9ab49350" class="text-white" target="_blank">Zertifikat</a></p>
+									</li>
+									
+									
+									<li class="img-rounded">										
+										<h5>Building Web Applications in PHP</h5>
+										<strong>2021</strong>
+										<p>* University of Michigan</p>
+										<p> Abschluss mit <a href="https://coursera.org/share/22cbe45ed861a18200344b3db2011cb9" target="_blank">Zertifikat</a></p>
+									</li>
+									
+									
+									<li class="img-rounded">										
+										<h5>Foundations: Data, Data, Everywhere</h5>
+										<strong>2021</strong>
+										<p>Part of Google Data Analytics Professional Certificate</p>
+										<p>Coursera / (Google)</p>
+										<p> Abschluss mit <a href="https://coursera.org/share/f404313e900866bc71f370c1532d78df" target="_blank">Zertifikat</a></p>
+									</li>
+									
+									<li class="img-rounded">										
+										<h5>Complete PHP 8 Guide</h5>
+										<strong>2021</strong>
+										<p>Complete php Guide [2021 Edition] Online course</p>
+										<p>Udemy / #BeAble </p>
+										<p> Abschluss mit <a href="http://ude.my/UC-a43c3209-fc86-487b-ae75-1beea3de1609" target="_blank">Zertifikat</a></p>
+									</li>
+									
+									
+									<li class="img-rounded">										
+										<h5>Dynamic Blog Website</h5>
+										<strong>2021</strong>
+										<p>Build a Custom Dynamic Blog Website with php, MySQL&Jquery Online course</p>
+										<p>Udemy / #BeAble </p>
+										<p> Abschluss mit <a href="http://ude.my/UC-a0523d0e-30cf-4e95-b79f-fed7d76a5488" target="_blank">Zertifikat</a></p>
+									</li>
+
+								</ul>
+							</div>
+						</div>
+						
+						<div class="col-md-6 col-sm-12 col-xs-12">
+							<div class="education-container wow fadeInRight">
+								<!-- <ul class="edu-list experience"> -->
+								<ul class="edu-list img-rounded">
+
+									<li class="img-rounded">										
+										<h5>Ultimate JavaScript</h5>
+										<strong>2021</strong>
+										<p>JavaScript Ultimate Online course</p>
+										<p>Udemy / #BeAble </p>
+										<p> Abschluss mit <a href="http://ude.my/UC-8f92aee7-d8c4-4e5e-9f6f-58133f207eef" target="_blank">Zertifikat</a></p>
+									</li>
+									<li class="img-rounded">										
+										<h5>Online Marketing</h5>
+										<strong>2020</strong>
+										<p>Basislehrgang “Online-Marketing”</p>
+										<p>IAB Europe, The Open University (Google)</p>
+										<p>Abschluss mit Zertifikat</p>
+									</li>
+									
+									<li class="img-rounded">										
+										<h5>Buchhaltung 1 und 2</h5>
+										<strong>2020</strong>
+										<p> WIFI Salzburg | mit Zertifikaten</p>
+									</li>
+									<li class="img-rounded">
+										<h5>Deutschkurs</h5>
+										<strong>2019</strong>
+										<p>Sprachzentrum Salzburg Universität | B1 Niveau mit Prüfung</p>
+									</li>
+									<li class="img-rounded">
+
+										<h5>Deutschkurse </h5>
+										<strong>2017-2018</strong>
+										<p> A1 und A 2 Niveau mit Prüfung</p>
+									</li>
+									<li class="img-rounded">									
+										<h5>Studium Lehramt für Informatik </h5>
+										<strong>2010-2011</strong>
+										<p> Universität Aleppo
+											Abschluss: Diplom „Pädagogische Ausbildung am Computer“</p>
+									</li>
+									<li class="img-rounded">										
+										<h5>Studium Lehramt für Mathematik </h5>
+										<strong>2000-2002</strong>
+										<p> Universität Aleppo
+											Abschluss: Diplom</p>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+		<!-- END RESUM -->
+		
+
+
+		
+		<!-- START BLOG -->
+			<!-- <section id="blog" class="dark_bg section_padding pb_70">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-12 col-sm-12-col-xs-12">
+							<div class="section_heading text-center">
+								<h2>My <span>Blog</span></h2>							
+								<p>Lorem ipsum dolor sit amet, consect adipisic elit, sed do eiusmod tempor incididunt ut<br/> labore et d magna aliqua enim sed do sit.</p>
+							</div>	
+						</div>	
+						
+						<div class="blog_slide_area">
+							<div class="col-md-4 col-sm-6 col-xs-12">
+								<div class="single_blog wow fadeInLeft">
+									<div class="blog-thumb">
+										<div class="blog-image">
+										   <a href="#"><img src="images/blog/1.jpg" class="img-responsive" alt=""></a>
+										</div>
+										<div class="blog-info">
+											<small><i class="fa fa-clock-o"></i>July 31, 2020</small>
+											<span>| Design</span>
+											<a href="#"><h4>How To Be A Freelancer</h4></a>																						
+											<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim eveniet incidunt quidem illum repellat</p>
+											<a href="#" class="btn blog_btn">Read More</a>
+										</div>
+									</div>
+								</div>
+							</div>
+			
+							<div class="col-md-4 col-sm-6 col-xs-12">
+								<div class="single_blog wow fadeInUp">
+									<div class="blog-thumb">
+										<div class="blog-image">
+										   <a href="#"><img src="images/blog/2.jpg" class="img-responsive" alt=""></a>
+										</div>
+										<div class="blog-info">
+											<small><i class="fa fa-clock-o"></i>July 31, 2020</small>
+											<span>| Work</span>
+											<a href="#"><h4>How To Be A Freelancer</h4></a>																						
+											<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim eveniet incidunt quidem illum repellat</p>
+											<a href="#" class="btn blog_btn">Read More</a>
+										</div>
+									</div>
+								</div>
+							</div>
+							
+							<div class="col-md-4 col-sm-6 col-xs-12">
+								<div class="single_blog wow fadeInRight">
+									<div class="blog-thumb">
+										<div class="blog-image">
+										   <a href="#"><img src="images/blog/3.jpg" class="img-responsive" alt=""></a>
+										</div>
+										<div class="blog-info">
+											<small><i class="fa fa-clock-o"></i>July 31, 2020</small>
+											<span>| Creative</span>
+											<a href="#"><h4>How To Be A Freelancer</h4></a>																						
+											<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim eveniet incidunt quidem illum repellat</p>
+											<a href="#" class="btn blog_btn">Read More</a>
+										</div>
+									</div>
+								</div>
+							</div>	
+						</div>
+					</div>
+				</div>
+			</section> -->
+		<!-- END BLOG -->
+		
+		<!-- START CONTACT -->
+			<section id="contact" class="dark_bg section_padding">
+				<div class="container">
+					<div class="col-md-12 col-sm-12-col-xs-12">
+						<div class="section_heading text-center">
+							<h2>Contact <span>Me</span></h2>							
+							<p>Easily just drop me a message and I will try my best to answer all your questions as soon as possible..</p>	
+							<div class="banner-btn">
+									<a href="mailto:safwan.nj@gmail.com" class="banner_btn"><img src="images/email.png" width="120px" height="50px"alt="" /></a>
+									<a href="https://wa.me/+4368110665485/?text=Hello Safwan, I am contacting you to:" class="banner_btn"><img src="images/whatsapp.png" width="120px" height="50px"alt="" /></a>
+							</div>		
+						</div>	
+					</div>	
+					
+					<!-- <div class="row">						
+						<div class="col-md-12 col-sm-12">
+							<form class="form" name="enq" method="post" onsubmit="return validation();">
+								<div class="row">
+									<div class="input_padding text-center">
+										<div class="form-group col-sm-12">
+											<input type="text" name="name" class="form-control" placeholder="Name" required="required">
+										</div>
+										<div class="form-group col-sm-6">
+											<input type="email" name="email" class="form-control" placeholder="Email" required="required">
+										</div>
+										<div class="form-group col-sm-6">
+											<input type="text" name="subject" class="form-control" placeholder="Subject" required="required">
+										</div>
+										<div class="form-group col-sm-12 mab-none">
+											<textarea rows="6" name="message" class="form-control" placeholder="Your Message" required="required"></textarea>
+										</div>
+										<div class="form-group mb0 col-sm-12">
+											<div class="actions">
+												<button type="submit" value="Send message" name="submit" id="submitButton" class="btn btn-default main_btn" title="Submit Your Message!">Send Message</button>
+											</div>
+										</div>
+									</div>
+								</div>
+							</form>
+						</div>						
+					</div> -->
+				</div>
+			</section>
+		<!-- END CONTACT -->
+		
+		<!-- START FOOTER -->
+			<div class="footer">
+				<div class="container">					
+					<div class="copy-text text-center">
+						<p>Copyright © 2022 Safwan | All Rights Reserved</p>
+					</div>											
+				</div>						
+			</div>	
+		<!-- END FOOTER -->
+		
+		<!-- Latest jQuery -->
+			<script src="js/jquery.min.js"></script>
+			<script src="js/bootstrap.min.js"></script>
+			<script src="js/owl.carousel.min.js"></script>
+			<script src="js/modernizr-2.8.3.min.js"></script>
+			<script src="js/jquery.nav.js"></script>
+			<script src="js/jquery.inview.min.js"></script>
+			<script src="js/isotope.pkgd.min.js"></script>
+			<script src="js/animated-headline.js"></script>			
+			<script src="js/lightbox.min.js"></script>
+			<script src="js/slick-nav.js"></script>
+			<script src="js/form-contact.js"></script>
+			<script src="js/scrolltopcontrol.js"></script>
+			<script src="js/wow.min.js"></script>
+			<script src="js/main.js"></script>
+</body>
+</html>		
