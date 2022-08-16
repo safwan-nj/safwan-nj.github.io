@@ -96,6 +96,50 @@ a:hover {
 .dark_bg {
   background: #1d293e;
 }
+
+.checkbox {
+  opacity: 0;
+  position: absolute inline;
+}
+
+.label {
+  width: 35px;
+  height: 20px;
+  margin-left: 30px;
+  background-color: #161f2f;
+  display: flex;
+  border-radius: 50px;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px;
+  position: relative;
+  transform: scale(1.5);
+}
+
+.ball {
+  width: 15px;
+  height: 15px;
+  background-color: #7564e5;
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  border-radius: 50%;
+  transition: transform 0.2s linear;
+}
+
+/*  target the elemenent after the label*/
+.checkbox:checked + .label .ball {
+  transform: translateX(15px);
+}
+
+.fa-moon {
+  color: pink;
+}
+
+.fa-sun {
+  color: yellow;
+}
+
 /* START PRELOADER DESIGN */
 .preloader {
   background: #fff;
@@ -926,6 +970,9 @@ a:hover {
 }
 .copy-text p {
   color: #fff;
+}
+.text-secondary {
+  color: #7564e586 !important;
 }
 /* ----------------------------------------------------------------
     [ End Footer ]

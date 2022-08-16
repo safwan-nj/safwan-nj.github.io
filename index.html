@@ -14,6 +14,7 @@ include 'contact.php';
 		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700">
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:300,400,600,800">
 		<link href="fonts/font-awesome.min.css" rel="stylesheet"/>
+		<link rel="stylesheet" href="css\plugins\fontawesome-free-6.1.2-web\fontawesome-free-6.1.2-web\css\all.min.css">
 		<link rel="icon" href="images/favicon.png"/>
 		<link href="fonts/themify-icons.css" rel="stylesheet"/>
 		<link href="fonts/etline.css" rel="stylesheet"/>
@@ -55,13 +56,40 @@ include 'contact.php';
 							<li><a href="#resume">Resume</a></li>	
 							<!-- <li><a href="#blog">Blog</a></li> -->													
 							<li><a href="#contact">Contact</a></li>
-							<li><a href="light.html">Light</a></li>
+							<!-- <li><a href="light.html">Light</a></li> -->
+							<li>
+								<div>
+									<input type="checkbox" class="checkbox" id="checkbox" value="on">
+								  <label for="checkbox" class="label">
+									  <i class='fas fa-sun'></i>
+									<i class="fas fa-moon"></i>
+									<div class='ball'>
+								  </label>
+								</div>
+							</li>
 						</ul>
 					</div> 
 				</div><!--- END CONTAINER -->
 			</div> 
 		<!-- END NAVBAR -->			
-		
+		<script>
+			const checkbox = document.getElementById('checkbox');
+
+			checkbox.addEventListener('change', ()=>{
+				if (checkbox.value=="on"){
+					checkbox.value="off";
+					location.href="light.html";
+					//alert (checkbox.value);
+					
+				}
+				/* else {
+					checkbox.value="on";
+					location.href="index.html";
+					//alert (checkbox.value);
+				} */
+			})
+
+		</script>
 		<!-- START BANNER-SHOW -->
 			<section id="home" class="main_banner banner_bg">
 				<div class="container">
@@ -694,6 +722,7 @@ include 'contact.php';
 			<div class="footer">
 				<div class="container">					
 					<div class="copy-text text-center">
+						<p class="text-secondary">Last updated: 16.06.2022 12:52 Uhr</p>
 						<p>Copyright © 2022 Safwan | All Rights Reserved</p>
 					</div>											
 				</div>						

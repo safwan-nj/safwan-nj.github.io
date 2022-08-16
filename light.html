@@ -11,6 +11,7 @@
 		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700">
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:300,400,600,800">
 		<link href="fonts/font-awesome.min.css" rel="stylesheet"/>
+		<link rel="stylesheet" href="css\plugins\fontawesome-free-6.1.2-web\fontawesome-free-6.1.2-web\css\all.min.css">
 		<link rel="icon" href="images/favicon.png"/>
 		<link href="fonts/themify-icons.css" rel="stylesheet"/>
 		<link href="fonts/etline.css" rel="stylesheet"/>
@@ -52,11 +53,40 @@
 							<li><a href="#resume">Resume</a></li>	
 							<!-- <li><a href="#blog">Blog</a></li> -->													
 							<li><a href="#contact">Contact</a></li>
-							<li><a href="index.html">Dark</a></li>
+							<!-- <li><a href="index.html">Dark</a></li> -->
+							<li>
+								<div>
+									<input type="checkbox" class="checkbox" id="checkbox" value="off" checked>
+								  <label for="checkbox" class="label">
+									  <i class='fas fa-sun'></i>
+									  <i class="fas fa-moon"></i>
+									<div class='ball'>
+								  </label>
+								</div>
+							</li>
 						</ul>
 					</div> 
 				</div><!--- END CONTAINER -->
 			</div> 
+		<!-- END NAVBAR -->			
+		<script>
+			const checkbox = document.getElementById('checkbox');
+
+			checkbox.addEventListener('change', ()=>{
+				if (checkbox.value=="off"){
+					checkbox.value="on";
+					location.href="index.html";
+					//alert (checkbox.value);
+					
+				}
+				/* else {
+					checkbox.value="off";
+					location.href="light.html";
+					//alert (checkbox.value);
+				} */
+			})
+
+		</script>
 		<!-- END NAVBAR -->			
 		
 		<!-- START BANNER-SHOW -->
@@ -649,9 +679,9 @@
 						<div class="section_heading text-center">
 							<h2>Contact <span>Me</span></h2>							
 							<p>Easily just drop me a message and I will try my best to answer all your questions as soon as possible..</p>	
-							<div class="banner-btn">
-									<a href="mailto:safwan.nj@gmail.com" class="banner_btn"><img src="images/email.png" width="120px" height="50px"alt="" /></a>
-									<a href="https://wa.me/+4368110665485/?text=Hello Safwan, I am contacting you to:" class="banner_btn"><img src="images/whatsapp.png" width="120px" height="50px"alt="" /></a>
+							<div class="banner-btn row">
+									<a class="col" href="mailto:safwan.nj@gmail.com" class="banner_btn"><img src="images/email.png" width="150px" height="70px"alt="" /></a>
+									<a class="col" href="https://wa.me/+4368110665485/?text=Hello Safwan, I am contacting you to:" class="banner_btn"><img src="images/whatsapp.png" width="150px" height="70px"alt="" /></a>
 							</div>		
 						</div>	
 					</div>	
@@ -688,13 +718,14 @@
 		<!-- END CONTACT -->
 		
 		<!-- START FOOTER -->
-			<div class="footer">
-				<div class="container">					
-					<div class="copy-text text-center">
-						<p>Copyright © 2022 Safwan | All Rights Reserved</p>
-					</div>											
-				</div>						
-			</div>	
+		<div class="footer">
+			<div class="container">					
+				<div class="copy-text text-center">
+					<p class="text-secondary">Last updated: 16.06.2022 12:52 Uhr</p>
+					<p>Copyright © 2022 Safwan | All Rights Reserved</p>
+				</div>											
+			</div>						
+		</div>	
 		<!-- END FOOTER -->
 		
 		<!-- Latest jQuery -->
