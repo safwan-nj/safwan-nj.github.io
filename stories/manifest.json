@@ -2,7 +2,7 @@
   "name": "Safi Stories",
   "short_name": "Safi Stories",
   "description": "تطبيق لعرض القصص المصورة",
-  "start_url": "/",
+  "start_url": "/stories/",
   "display": "standalone",
   "background_color": "#003087",
   "theme_color": "#003087",
