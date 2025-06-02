@@ -1,0 +1,21 @@
+{
+  "name": "Safi Stories",
+  "short_name": "Safi Stories",
+  "description": "تطبيق لعرض القصص المصورة",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#003087",
+  "theme_color": "#003087",
+  "icons": [
+    {
+      "src": "/icons/lib.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/icons/lib.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
