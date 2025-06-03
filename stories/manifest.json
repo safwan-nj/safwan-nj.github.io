@@ -1,19 +1,20 @@
 {
-  "name": "Safi Stories",
-  "short_name": "Safi Stories",
-  "description": "تطبيق لعرض القصص المصورة",
+  "name": "Safi Books",
+  "short_name": "SafiBooks",
+  "description": "Your Free Online Library",
+  "version": "1.1.0",
   "start_url": "/stories/",
   "display": "standalone",
   "background_color": "#003087",
   "theme_color": "#003087",
   "icons": [
     {
-      "src": "/stories/icons/lib.png",
+      "src": "/stories/icons/lib512.png",
       "sizes": "192x192",
       "type": "image/png"
     },
     {
-      "src": "/stories/icons/lib.png",
+      "src": "/stories/icons/lib192.png",
       "sizes": "512x512",
       "type": "image/png"
     }
