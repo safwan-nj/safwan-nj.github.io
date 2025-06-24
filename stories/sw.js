@@ -5,7 +5,7 @@ self.addEventListener('install', (event) => {
       return cache.addAll([
         '/',
         '/index.html',
-        '/assets/bg.jpg',
+        '/assets/bgg.png',
         '/components/CategoryModal.css',
         '/components/PdfViewer.css',
         '/components/Slider.css',
